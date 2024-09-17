@@ -1,0 +1,38 @@
+/*estilo para conainer principal*/
+
+#container-principal {
+background-color: rgb(255, 220, 238); 
+padding: 20px; /*espaço do lado de dentro*/
+height: 350px; /*altura*/ 
+border: 2px solid #ff4bc0; /* add borda*/
+border-radius: 10px; /*define os cantos como arredondado*/
+}
+
+/*estilo para as caixas com a mesma classe */
+.caixa-simples {
+    background-color: rgb(255, 211, 233);
+    color: honeydew;
+    width: 100px;
+    height: 100px;  
+    text-align: center;
+    line-height: 100px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.caixa-simples:hover{
+    background-color: #ffb9e6;
+}
+#caixa-diferente {
+    background-color: rgb(255, 175, 215);
+    margin: 10px;
+    color: honeydew; /*define a cor da letra */
+    width: 100px; /*largura*/
+    height: 100px; /*altura*/
+    text-align: center; /*define o alinhamento do texto*/
+    line-height: 50px;
+    border-radius: 5px;
+    margin: 10px;
+}
+#caixa-diferente:hover {
+background-color: rgb(251, 90, 170);
+}
